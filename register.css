@@ -1,0 +1,135 @@
+/* .form_grp{
+    display: flex;
+    padding: 0;
+}*/
+
+/* body{
+    font-family: 'poppins',sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #121213;
+    display:grid;
+    place-items: center;
+    border: 1px solid #fff; 
+}
+
+.header{
+    width: 50%;
+    height: 50%;
+     border: 1px solid #fff; 
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+} */
+
+*{
+    background-color: black;
+    
+    
+}
+
+.container{
+    
+    /* display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    padding: 29px;
+    width: 35%;
+    border: 2px solid  black; */
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+    width: 350px;
+    margin: auto;
+    border-top: 4px solid rgb(171, 4, 255);
+    border-bottom: 35px solid rgb(171, 4, 255);
+    box-shadow: 0 0 5px blueviolet ;
+    padding: 0px;
+    padding-top: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+} 
+
+.form-group{
+margin: 9px;
+display: flex;
+flex-direction: column;
+}
+
+.form-group label{
+    padding: 5px;
+}
+
+.form-group input{
+    padding: 7px;
+    }
+
+.form_grp{
+    margin: 2px solid black;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group>input {
+    /* margin-top: 0.5rem; */
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.416);
+    height: 2.5rem;
+    padding: 0.5rem;
+    color: rgba(197, 108, 219, 0.829);
+    width: 100%;
+  
+  }
+
+.btn{
+
+        background-image: linear-gradient(black,rgb(171, 4, 255));
+        color: var(--white);
+        padding: 0.5rem 1rem;
+        border: 0.5px solid var(--purpleblue);
+        font-weight: bolder;
+        cursor: pointer;
+        width: 80%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+      }
+      
+.btn :hover{
+        box-shadow: 0 0 10px rgb(171, 4, 255);
+    }
+
+.btn{
+   
+        margin-bottom: 30px;
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+      margin-left: 13%;
+}
+
+.collapse{
+    background-color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    padding: 5px 5pxs;
+}
+
+.navbar-nav li{
+    padding: 10px;
+}
+
+.nav-linl{
+    color: aliceblue;
+}
